@@ -2,6 +2,9 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: onepageapp
+  labels:
+    creation_method: manual
+    env: prod
 spec:
   containers:
   - image: wakeup777/onepageapp
